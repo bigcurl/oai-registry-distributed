@@ -1,6 +1,6 @@
-=== Changelog
+== Changelog
 
-== Not yet in master
+=== Not yet in master
 
 * Updated Readme text
 * Added MIT license for project
