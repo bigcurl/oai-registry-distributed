@@ -1,21 +1,21 @@
-== Welcome to the distributed Open Archives Initiative (OAI) Registry
+== Distributed Open Archives Initiative Registry
 
 The Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH) is a network protocol for harvesting metadata.
 
 The protocols defines two main participants that interact with each other:
 
-* Data Providers who hold the metadata
-* Service Providers who harvest the metadata
+* Data Providers, who hold the metadata
+* Service Providers, who harvest the metadata
 
-The protocol however does not specify how the participants find each other. To fill this gap registry services for both parties have been introduced but all registries are hosted in a centralized way. The tedious work of searching and finding for Data Providers must be repeated for every Service Provider. The same is true for Service Providers who want to spread their metadata.
+The protocol however does not specify how the participants find each other. To fill this gap registries for both parties have been introduced but all registries are hosted in a centralized way. The tedious work of searching and finding for Data Providers must be repeated for every Service Provider. The same is true for Service Providers who want to spread their metadata.
 
-The distributed OAI registry is an open data project which encourages contributions by anyone to combine the effort of mapping Data and Service Providers. The registry is not centraly hosted and does not need a central database. Every participant hosts a complete version of a decentralized transaction log. The transaction log is replicated and synchronized by the open an protocol in a peer-to-peer network and contains the history of update operations from every node. The participants together form the main database.
+The distributed OAI registry is an open data project which encourages contributions by anyone to combine the effort of mapping Data and Service Providers. This registry is however not another centraly hosted service. Every participant hosts a complete version of a decentralized transaction log. The transaction log is replicated and synchronized by the open an protocol in a peer-to-peer network and contains the history of update operations from every node. The participants together form the main database.
 
 Synchronizing the data in a multi master database replication setup enables user contributions from multiple sources. The protocol provides auditable, tamperproof multi master database replication. This provides a permanent and formalized way to access the data. All participants can edit their locally and changes are synchronized with the network. Fluctuation of participants does not have an impact on availability and accessibility. As long as one machine remains in the network the data is available.
 
 == Further Readings
 
-* The Open Archives Initiative: http://www.openarchives.org/pmh/
+* The Open Archives Initiative: http://www.openarchives.org/pmh
 * The Open Archive Network Protocol: http://www.openan.org
 
 The complete Documentation including install instructions can be found online at oai.distributed-preservation.org or generated for offline use with the command: <tt>rake doc:app</tt>
