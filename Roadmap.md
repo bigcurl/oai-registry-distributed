@@ -23,6 +23,10 @@
 * [ ] return xml schema
 * [ ] support json
 
+==== index
+
+* [ ] support pagination
+
 ==== Register Repository
 ==== Get All Repositories
 ==== Get Repository
