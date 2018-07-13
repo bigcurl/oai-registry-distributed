@@ -1,5 +1,13 @@
 == Roadmap
 
+* install annotate
+* return json for api methods
+* add state machine for repository
+* Tests for API methods
+* Tests for Repository model
+
+== Issues
+
 === Models
 ==== Repository
 

@@ -13,6 +13,6 @@ group :assets do
 end
 
 group :development do
-  gem 'annotate', ">=2.5.0"
+  gem 'annotate'
   gem 'debugger'
 end
